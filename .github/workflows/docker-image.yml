@@ -26,9 +26,9 @@ jobs:
       # Build the Docker image
       - name: Build Docker image
         run: |
-          docker build -t batcavegowtham/myimage:latest .
+          docker build -t batcavegowtham/myfirstimage:latest .
 
       # Push the Docker image to DockerHub
       - name: Push Docker image
         run: |
-          docker push batcavegowtham/myimage:latest
+          docker push batcavegowtham/myfirstimage:latest
